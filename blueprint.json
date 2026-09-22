@@ -4,19 +4,54 @@
   "description": "A property-focused website for real estate agents, agencies, and property managers.",
   "category": "website",
   "framework": null,
-  "tags": ["real estate", "realtor", "property", "agent", "agency", "homes", "apartments", "commercial", "rental", "listings"],
+  "tags": [
+    "real estate",
+    "realtor",
+    "property",
+    "agent",
+    "agency",
+    "homes",
+    "apartments",
+    "commercial",
+    "rental",
+    "listings"
+  ],
   "is_featured": false,
   "difficulty": "beginner",
   "estimated_time": "15 minutes with Host Direct",
   "commander_tools": [],
   "app_type": "cx",
   "sections": [
-    { "id": "hero", "name": "Hero + Search", "purpose": "Agent brand with property search or featured listing above the fold" },
-    { "id": "listings", "name": "Featured Listings", "purpose": "Property cards with photos, prices, and bed/bath/car details" },
-    { "id": "agent", "name": "Agent Profile", "purpose": "Headshot, bio, experience stats, licence number, and awards" },
-    { "id": "areas", "name": "Areas of Expertise", "purpose": "Suburb cards with descriptions for local SEO" },
-    { "id": "testimonials", "name": "Testimonials", "purpose": "Vendor and buyer testimonials with ratings" },
-    { "id": "valuation", "name": "Free Appraisal Form", "purpose": "Lead generation form for property appraisal requests" }
+    {
+      "id": "hero",
+      "name": "Hero + Search",
+      "purpose": "Agent brand with property search or featured listing above the fold"
+    },
+    {
+      "id": "listings",
+      "name": "Featured Listings",
+      "purpose": "Property cards with photos, prices, and bed/bath/car details"
+    },
+    {
+      "id": "agent",
+      "name": "Agent Profile",
+      "purpose": "Headshot, bio, experience stats, licence number, and awards"
+    },
+    {
+      "id": "areas",
+      "name": "Areas of Expertise",
+      "purpose": "Suburb cards with descriptions for local SEO"
+    },
+    {
+      "id": "testimonials",
+      "name": "Testimonials",
+      "purpose": "Vendor and buyer testimonials with ratings"
+    },
+    {
+      "id": "valuation",
+      "name": "Free Appraisal Form",
+      "purpose": "Lead generation form for property appraisal requests"
+    }
   ],
   "design": {
     "colorPalette": "Sophisticated — charcoal or navy primary, white background, gold or emerald accent",
@@ -27,5 +62,12 @@
   "starter_prompt": "I want to build a real estate website using the WaymakerOS Real Estate blueprint. Use host_blueprint_get with blueprint_id \"website-real-estate\" to get the full blueprint, then guide me through building it with Host Direct.",
   "seo_title": "Real Estate Website Template — Build with AI | WaymakerOS",
   "seo_description": "Build a professional real estate website in minutes with AI. Property listings, agent profile, testimonials, and appraisal form.",
-  "seo_keywords": ["real estate website template", "real estate agent website builder AI", "property listing website template"]
+  "seo_keywords": [
+    "real estate website template",
+    "real estate agent website builder AI",
+    "property listing website template"
+  ],
+  "topics": [
+    "websites"
+  ]
 }
